@@ -1,0 +1,14 @@
+in this artical we will learn how to configure our rhel 7 to ansible. there is few configuration lines which will have to do. 
+------------------------------------------------------------------------------------------------------------------------------------------
+follow the following steps
+------------------------------------------------------------------------------------------------------------------------------------------
+1. power on your rhel 7 machine in vmware 
+2. connecte internet with rhel 7
+3. #cd /tmp
+4. #wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+5. #yum install epel-release-latest-7.noarch.rpm
+6. #cd
+7. #cd /etc/yum.repos.d/
+8. #yum repolist
+9. #yum install -y ansible
+10. #yum install -y htop
